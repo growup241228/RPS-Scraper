@@ -27,7 +27,7 @@ jobs:
       - name: Set up service account credentials
         run: |
           cat <<EOF > service_account.json
-          ${{ secrets.GOOGLE_CREDENTIALS }}
+          ${{ secrets.GOOGLE_CREDENTIALS_two }}
           EOF
 
 
